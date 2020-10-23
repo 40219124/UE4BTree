@@ -6,6 +6,8 @@
 
 enum class Direction { NONE = -1, DESCEND, ASCEND, STOP };
 enum class Orders { NONE = -1, GoLEFT, GoRIGHT, GoUP};
+UENUM()
+enum  PrintFunction { NONE = -1, INORDER, PREORDER, POSTORDER };
 
 /**
  *
